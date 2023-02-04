@@ -747,43 +747,7 @@ const StcwOtherCertificatesAdmin = ({ inputs, setInputs }) => {
                     <th style={{ backgroundColor: "#c4c2c2" }}>
                       SIMULATOR TRAINING
                     </th>
-                    <td>
-                      <input
-                        value={inputs.simulator_cerificate_no}
-                        name="simulator_cerificate_no"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="date"
-                        value={inputs.simulator_date_of_issue}
-                        name="simulator_date_of_issue"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="date"
-                        value={inputs.simulator_date_of_expiry}
-                        name="simulator_date_of_expiry"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        value={inputs.simulator_place_of_issue}
-                        name="simulator_place_of_issue"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        value={inputs.simulator_issuing_authority}
-                        name="simulator_issuing_authority"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
+                    
                   </tr>
                   <tr id="addx2">
                     <th>ENGINE ROOM SIMULATOR</th>
@@ -1196,43 +1160,7 @@ const StcwOtherCertificatesAdmin = ({ inputs, setInputs }) => {
                     <th style={{ backgroundColor: "#c4c2c2" }}>
                       TANKER COURSES
                     </th>
-                    <td>
-                      <input
-                        value={inputs.tanker_cerificate_no}
-                        name="tanker_cerificate_no"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="date"
-                        value={inputs.tanker_date_of_issue}
-                        name="tanker_date_of_issue"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="date"
-                        value={inputs.tanker_date_of_expiry}
-                        name="tanker_date_of_expiry"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        value={inputs.tanker_place_of_issue}
-                        name="tanker_place_of_issue"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        value={inputs.tanker_issuing_authority}
-                        name="tanker_issuing_authority"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
+                    
                   </tr>
                   <tr>
                     <th>TASCO / TANK FAM</th>
@@ -1518,43 +1446,7 @@ const StcwOtherCertificatesAdmin = ({ inputs, setInputs }) => {
                     <th style={{ backgroundColor: "#c4c2c2" }}>
                       OTHER COURSES
                     </th>
-                    <td>
-                      <input
-                        value={inputs.other_course_cerificate_no}
-                        name="other_course_cerificate_no"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="date"
-                        value={inputs.other_course_date_of_issue}
-                        name="other_course_date_of_issue"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        type="date"
-                        value={inputs.other_course_date_of_expiry}
-                        name="other_course_date_of_expiry"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        value={inputs.other_course_place_of_issue}
-                        name="other_course_place_of_issue"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
-                    <td>
-                      <input
-                        value={inputs.other_course_issuing_authority}
-                        name="other_course_issuing_authority"
-                        onChange={(e) => onChange(e)}
-                      />
-                    </td>
+                 
                   </tr>
                   <tr>
                     <th>MARITIME ENGLISH</th>
